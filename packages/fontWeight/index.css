@@ -1,13 +1,5 @@
-/**
- * Usage of `font-weight` variations:
- * ----------------------------------
- *   - `font-weight-bold`: Use in headings and elements that need strong visual emphasis.
- *   - `font-weight-medium`: Intermediate text, ensuring hierarchy without excessive weight.
- *   - `font-weight-regular`: Standard for regular text, offering balanced readability.
- */
-
 :root {
-  --font-weight-bold: 700; /* Use in headings and elements that need strong visual emphasis. */
-  --font-weight-medium: 500; /* Intermediate text, ensuring hierarchy without excessive weight. */
-  --font-weight-regular: 400; /* Standard for regular text, offering balanced readability. */
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
 }

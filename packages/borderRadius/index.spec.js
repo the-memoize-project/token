@@ -1,12 +1,9 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { describe, it, expect } from "vitest";
+import { describe, expect, it } from "vitest";
 
 describe("Border Radius Tokens", () => {
-  const cssContent = readFileSync(
-    resolve(__dirname, "index.css"),
-    "utf-8",
-  );
+  const cssContent = readFileSync(resolve(__dirname, "index.css"), "utf-8");
 
   it("should export valid CSS content", () => {
     expect(cssContent).toBeDefined();

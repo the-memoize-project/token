@@ -1,13 +1,4 @@
-/**
- * Usage of `font-family` variations:
- * ----------------------------------
- *   - `font-family-highlight`: Highlight font, used in headings, attention-grabbing elements, and elements that need visual impact.
- *   - `font-family-base`: Default font for regular text, ensuring readability and consistency in the interface.
- */
-
 :root {
-  --font-family-highlight:
-    "Roboto Condensed", sans-serif; /* Highlight font for headings and impactful elements. */
-  --font-family-base:
-    "Roboto", sans-serif; /* Default font for regular text, ensuring readability. */
+  --font-family-highlight: "Roboto Condensed", sans-serif;
+  --font-family-base: "Roboto", sans-serif;
 }

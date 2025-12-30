@@ -1,22 +1,12 @@
 // Bun Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Opacity Tokens should match snapshot 1`] = `
-"/**
- * Usage of \`opacity-level\` variations:
- * ------------------------------------
- *   - \`opacity-level-semiopaque\`: High visibility with slight transparency (72%). Ideal for smooth overlays like modals, menus, or tooltips with partially visible background.
- *   - \`opacity-level-intense\`: Moderate transparency (64%) for interactive elements in focus, such as buttons with hover or floating components.
- *   - \`opacity-level-medium\`: Medium transparency (32%), recommended for disabled text, placeholders, or background elements.
- *   - \`opacity-level-light\`: Light transparency (16%) for subtle details like borders, decorative icons, or supporting backgrounds.
- *   - \`opacity-level-semitransparent\`: Very low opacity (8%), used in micro-details, highlights, or almost imperceptible visual accents.
- */
-
-:root {
-  --opacity-level-semiopaque: 0.72; /* Smooth overlays, such as tooltips or dropdowns. */
-  --opacity-level-intense: 0.64; /* Hover/focus states with visual presence. */
-  --opacity-level-medium: 0.32; /* Disabled text or secondary content. */
-  --opacity-level-light: 0.16; /* Subtle details and decorative effects. */
-  --opacity-level-semitransparent: 0.08; /* Almost invisible highlights or deep layers. */
+":root {
+  --opacity-level-semiopaque: 0.72;
+  --opacity-level-intense: 0.64;
+  --opacity-level-medium: 0.32;
+  --opacity-level-light: 0.16;
+  --opacity-level-semitransparent: 0.08;
 }
 "
 `;

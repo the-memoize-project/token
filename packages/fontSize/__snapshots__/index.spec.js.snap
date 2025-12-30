@@ -1,34 +1,18 @@
 // Bun Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Font Size Tokens should match snapshot 1`] = `
-"/**
- * Usage of \`font-size\` variations:
- * --------------------------------
- *   - \`font-size-xxxs\`: Minimal auxiliary text, such as form labels or footnotes.
- *   - \`font-size-xxs\`: Secondary informative text, breadcrumbs, or metadata.
- *   - \`font-size-xs\`: Standard body text for paragraphs and regular content.
- *   - \`font-size-sm\`: Text with slight emphasis, such as short descriptions or action buttons.
- *   - \`font-size-md\`: Subtitles and highlighted content within cards or specific sections.
- *   - \`font-size-lg\`: Section headings and module titles within the application.
- *   - \`font-size-xl\`: Main page titles and highlighted calls to action.
- *   - \`font-size-xxl\`: Hero titles or sections requiring strong visual hierarchy.
- *   - \`font-size-xxxl\`: Impactful headlines, slogans, or headlines on main pages.
- *   - \`font-size-display\`: Use in campaigns, landing pages, or prominent hero content.
- *   - \`font-size-giant\`: Imposing titles in special contexts, such as events or presentations.
- */
-
-:root {
-  --font-size-xxxs: 12px; /* Minimal auxiliary text, such as form labels or footnotes. */
-  --font-size-xxs: 14px; /* Secondary informative text, breadcrumbs, or metadata. */
-  --font-size-xs: 16px; /* Standard body text for paragraphs and regular content. */
-  --font-size-sm: 20px; /* Text with slight emphasis, such as short descriptions or action buttons. */
-  --font-size-md: 24px; /* Subtitles and highlighted content within cards or specific sections. */
-  --font-size-lg: 32px; /* Section headings and module titles within the application. */
-  --font-size-xl: 40px; /* Main page titles and highlighted calls to action. */
-  --font-size-xxl: 48px; /* Hero titles or sections requiring strong visual hierarchy. */
-  --font-size-xxxl: 64px; /* Impactful headlines, slogans, or headlines on main pages. */
-  --font-size-display: 80px; /* Use in campaigns, landing pages, or prominent hero content. */
-  --font-size-giant: 96px; /* Imposing titles in special contexts, such as events or presentations. */
+":root {
+  --font-size-xxxs: 12px;
+  --font-size-xxs: 14px;
+  --font-size-xs: 16px;
+  --font-size-sm: 20px;
+  --font-size-md: 24px;
+  --font-size-lg: 32px;
+  --font-size-xl: 40px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 64px;
+  --font-size-display: 80px;
+  --font-size-giant: 96px;
 }
 "
 `;
