@@ -179,8 +179,7 @@ const styles = css`
   "@the-memoize-project/token/borderRadius": "./packages/borderRadius/index.css",
   "@the-memoize-project/token/borderWidth": "./packages/borderWidth/index.css",
   "@the-memoize-project/token/shadow": "./packages/shadow/index.css",
-  "@the-memoize-project/token/opacity": "./packages/opacity/index.css",
-  "@the-memoize-project/token/tokens": "./packages/tokens/index.css"
+  "@the-memoize-project/token/opacity": "./packages/opacity/index.css"
 }
 ```
 

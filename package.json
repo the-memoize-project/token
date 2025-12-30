@@ -25,7 +25,6 @@
     "./borderWidth": "./packages/borderWidth/index.css",
     "./shadow": "./packages/shadow/index.css",
     "./opacity": "./packages/opacity/index.css",
-    "./tokens": "./packages/tokens/index.css",
     "./package.json": "./package.json"
   },
   "files": [

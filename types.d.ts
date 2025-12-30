@@ -63,8 +63,3 @@ declare module "@the-memoize-project/token/opacity" {
   const content: string;
   export default content;
 }
-
-declare module "@the-memoize-project/token/tokens" {
-  const content: string;
-  export default content;
-}
