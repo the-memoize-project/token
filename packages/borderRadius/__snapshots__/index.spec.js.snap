@@ -1,0 +1,26 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Border Radius Tokens should match snapshot 1`] = `
+"/**
+ * Usage of \`border-radius\` variations:
+ * ------------------------------------
+ *   - \`border-radius-none\`: No rounding, for elements with sharp corners.
+ *   - \`border-radius-xs\`: Slightly rounded edges, ideal for inputs and small components.
+ *   - \`border-radius-sm\`: Smooth rounding for buttons, cards, and modular sections.
+ *   - \`border-radius-md\`: More rounded corners for modals, popovers, and visual components.
+ *   - \`border-radius-lg\`: Accentuated rounding for highlighted components.
+ *   - \`border-radius-pill\`: Pill shape, ideal for elongated buttons and tags.
+ *   - \`border-radius-circular\`: Full rounding for avatars, icons, and circular elements.
+ */
+
+:root {
+  --border-radius-none: 0; /* No rounding, for elements with sharp corners. */
+  --border-radius-xs: 4px; /* Slightly rounded edges, ideal for inputs and small components. */
+  --border-radius-sm: 8px; /* Smooth rounding for buttons, cards, and modular sections. */
+  --border-radius-md: 16px; /* More rounded corners for modals, popovers, and visual components. */
+  --border-radius-lg: 24px; /* Accentuated rounding for highlighted components. */
+  --border-radius-pill: 500px; /* Pill shape, ideal for elongated buttons and tags. */
+  --border-radius-circular: 50%; /* Full rounding for avatars, icons, and circular elements. */
+}
+"
+`;
