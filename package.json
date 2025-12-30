@@ -1,0 +1,58 @@
+{
+  "name": "@the-memoize-project/token",
+  "version": "0.1.0",
+  "description": "Design token system for The Memoize Project. Centralized CSS custom properties for colors, spacing, typography, and visual effects.",
+  "type": "module",
+  "license": "MIT",
+  "author": "The Memoize Project Contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-memoize-project/token.git"
+  },
+  "homepage": "https://github.com/the-memoize-project/token#readme",
+  "bugs": {
+    "url": "https://github.com/the-memoize-project/token/issues"
+  },
+  "exports": {
+    "./color": "./packages/color/index.css",
+    "./spacing": "./packages/spacing/index.css",
+    "./fontFamily": "./packages/fontFamily/index.css",
+    "./fontSize": "./packages/fontSize/index.css",
+    "./fontWeight": "./packages/fontWeight/index.css",
+    "./lineHeight": "./packages/lineHeight/index.css",
+    "./borderRadius": "./packages/borderRadius/index.css",
+    "./borderWidth": "./packages/borderWidth/index.css",
+    "./shadow": "./packages/shadow/index.css",
+    "./opacity": "./packages/opacity/index.css",
+    "./tokens": "./packages/tokens/index.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "packages",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo 'No tests yet'",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.8",
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "design-tokens",
+    "css-variables",
+    "design-system",
+    "tokens",
+    "css",
+    "theming",
+    "memoize"
+  ]
+}

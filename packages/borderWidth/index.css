@@ -1,0 +1,17 @@
+/**
+ * Usage of `border-width` variations:
+ * -----------------------------------
+ *   - `border-width-none`: No border, for elements that don't need a visible outline.
+ *   - `border-width-hairline`: Ultra-thin border (1px), ideal for subtle dividers and light outlines.
+ *   - `border-width-thin`: Thin border (2px), used in inputs, buttons, and interactive elements.
+ *   - `border-width-thick`: Thick border (4px), applied to highlighted components or active states.
+ *   - `border-width-heavy`: Very thick border (8px), for maximum emphasis and high visual impact elements.
+ */
+
+:root {
+  --border-width-none: 0; /* No border, for elements that don't need a visible outline. */
+  --border-width-hairline: 1px; /* Ultra-thin border (1px), ideal for subtle dividers and light outlines. */
+  --border-width-thin: 2px; /* Thin border (2px), used in inputs, buttons, and interactive elements. */
+  --border-width-thick: 4px; /* Thick border (4px), applied to highlighted components or active states. */
+  --border-width-heavy: 8px; /* Very thick border (8px), for maximum emphasis and high visual impact elements. */
+}

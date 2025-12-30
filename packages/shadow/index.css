@@ -1,0 +1,15 @@
+/**
+ * Usage of `shadow-level` variations:
+ * -----------------------------------
+ *   - `shadow-level-1`: Subtle shadow (0 4px 8px). Ideal for low-elevation elements, such as cards, inputs, or buttons in default state.
+ *   - `shadow-level-2`: Medium shadow (0 8px 24px). Recommended for floating components like dropdowns, menus, or tooltips.
+ *   - `shadow-level-3`: More intense shadow (0 16px 32px). Indicated for modals, side panels, or visually prominent elements.
+ *   - `shadow-level-4`: Deep shadow (0 16px 48px). Used for content with maximum priority, such as main modals, banners, or overlapping areas.
+ */
+
+:root {
+  --shadow-level-1: 0 4px 8px; /* Cards, buttons, and elements with slight elevation. */
+  --shadow-level-2: 0 8px 24px; /* Dropdown menus, tooltips, or interactive components. */
+  --shadow-level-3: 0 16px 32px; /* Modals or floating panels with emphasis. */
+  --shadow-level-4: 0 16px 48px; /* Elements with maximum hierarchy and visual impact. */
+}

@@ -1,0 +1,158 @@
+/**
+ * Usage of `color-master` variations:
+ * ------------------------------------
+ *   - `color-master-darkest`: Highest contrast elements, such as critical text or icons.
+ *   - `color-master-darker`: Headings that need visual hierarchy.
+ *   - `color-master-dark`: Regular paragraphs for good readability.
+ *   - `color-master`: Auxiliary or disabled text (Muted/helper text).
+ *   - `color-master-light`: Borders to structure the interface.
+ *   - `color-master-lighter`: Light backgrounds for secondary surfaces.
+ *   - `color-master-lightest`: Main backgrounds for a neutral base.
+ *
+ * Generic usage for other contrast categories:
+ * --------------------------------------------
+ *   - `color-contrast-darker`: Headings and high hierarchy elements.
+ *   - `color-contrast-dark`: Main text or highlights in specific contexts.
+ *   - `color-contrast`: Default color for interactive or prominent elements.
+ *   - `color-contrast-light`: Supporting elements, such as borders or details.
+ *   - `color-contrast-lighter`: Light backgrounds or surfaces with lower visual priority.
+ *
+ * Other contrast categories:
+ * -------------------------
+ *   - `color-primary`: Main theme tones, ideal for buttons and interactive elements.
+ *   - `color-complete`: Blues indicate completion status, progress or informative success.
+ *   - `color-success`: Greens are used for success messages and positive feedback.
+ *   - `color-warning`: Yellows communicate warnings and alerts without indicating critical error.
+ *   - `color-danger`: Red tones are used for errors, failures and destructive actions.
+ *   - `color-info`: Informative colors, applied to auxiliary texts and neutral notifications.
+ *   - `color-menu`: Specific tones for menus, ensuring adequate contrast.
+ *   - `color-pure`: Absolute black and white for cases where maximum contrast is needed.
+ */
+
+:root {
+  --color-master-darkest: light-dark(
+    #0a0a0a,
+    #f5f5f5
+  ); /* Highest contrast elements, such as critical text or icons. */
+  --color-master-darker: light-dark(
+    #1a1a1a,
+    #e1e1e1
+  ); /* Headings that need visual hierarchy. */
+  --color-master-dark: light-dark(#2c2c2c, #c9c9c9); /* Regular paragraphs. */
+  --color-master: light-dark(
+    #626262,
+    #a3a3a3
+  ); /* Auxiliary or disabled text. */
+  --color-master-light: light-dark(#e6e6e6, #5c5c5c); /* Borders. */
+  --color-master-lighter: light-dark(
+    #f0f0f0,
+    #3d3d3d
+  ); /* Light backgrounds for secondary surfaces. */
+  --color-master-lightest: light-dark(#fafafa, #1f1f1f); /* Main backgrounds. */
+
+  --color-primary-darker: light-dark(
+    #413768,
+    #b8acf3
+  ); /* Headings with emphasis. */
+  --color-primary-dark: light-dark(
+    #5b4d91,
+    #9d88e6
+  ); /* Interactive main text. */
+  --color-primary: light-dark(
+    #6d5cae,
+    #7a5ed1
+  ); /* Buttons and interactive elements. */
+  --color-primary-light: light-dark(
+    #8a7dbe,
+    #6750c4
+  ); /* Icons or light highlights. */
+  --color-primary-lighter: light-dark(
+    #e2deef,
+    #34257d
+  ); /* Interactive component backgrounds. */
+
+  --color-complete-darker: light-dark(
+    #2b6a94,
+    #91d6ff
+  ); /* Informative success in headings. */
+  --color-complete-dark: light-dark(
+    #3c93ce,
+    #75bfff
+  ); /* Progress or completion text. */
+  --color-complete: light-dark(
+    #48b0f7,
+    #5daaf7
+  ); /* Success buttons and elements. */
+  --color-complete-light: light-dark(
+    #6dc0f9,
+    #4a90cc
+  ); /* Icons or highlights. */
+  --color-complete-lighter: light-dark(
+    #daeffd,
+    #3c7fb3
+  ); /* Completion-related backgrounds. */
+
+  --color-success-darker: light-dark(
+    #0a7c71,
+    #a3f8df
+  ); /* Success message headings. */
+  --color-success-dark: light-dark(#0dad9e, #88e6cc); /* Main success text. */
+  --color-success: light-dark(
+    #10cfbd,
+    #66d4b8
+  ); /* Success buttons and highlights. */
+  --color-success-light: light-dark(#40d9ca, #52c0a5); /* Icons and details. */
+  --color-success-lighter: light-dark(
+    #cff5f2,
+    #3da591
+  ); /* Success backgrounds. */
+
+  --color-warning-darker: light-dark(
+    #957d32,
+    #ffe3aa
+  ); /* Important warnings in headings. */
+  --color-warning-dark: light-dark(#cfae45, #ffd480); /* Main warning text. */
+  --color-warning: light-dark(
+    #f8d053,
+    #ffc658
+  ); /* Warning highlights and buttons. */
+  --color-warning-light: light-dark(#f9d975, #e6b44e); /* Supporting icons. */
+  --color-warning-lighter: light-dark(
+    #fef6dd,
+    #b5913e
+  ); /* Warning backgrounds. */
+
+  --color-danger-darker: light-dark(
+    #933432,
+    #ffb3b0
+  ); /* Critical errors in headings. */
+  --color-danger-dark: light-dark(#cd4945, #ff8f8c); /* Main error text. */
+  --color-danger: light-dark(
+    #f55753,
+    #ff6b68
+  ); /* Error buttons and highlights. */
+  --color-danger-light: light-dark(#f77975, #e6615e); /* Supporting icons. */
+  --color-danger-lighter: light-dark(#fddddd, #b94d4b); /* Error backgrounds. */
+
+  --color-info-darker: light-dark(
+    #232b31,
+    #b0c4cc
+  ); /* Highlighted informative text. */
+  --color-info-dark: light-dark(
+    #313b44,
+    #97abb4
+  ); /* Regular information text. */
+  --color-info: light-dark(#3b4752, #7f929b); /* Neutral highlights. */
+  --color-info-light: light-dark(#626c75, #656f77); /* Informative icons. */
+  --color-info-lighter: light-dark(
+    #d8dadc,
+    #4b565e
+  ); /* Informative backgrounds. */
+
+  --color-menu-dark: light-dark(#21252d, #2f333b); /* Menus in dark contexts. */
+  --color-menu: light-dark(#2b303b, #383c44); /* Menu backgrounds. */
+  --color-menu-light: light-dark(#929aac, #6d727a); /* Menu icons and text. */
+
+  --color-pure-white: #fff; /* Absolute white for text and absolute black for dark background. */
+  --color-pure-black: #000; /* Absolute black for text and absolute white for light background. */
+}
