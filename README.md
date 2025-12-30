@@ -25,7 +25,8 @@ npm install @the-memoize-project/token
 ### Import All Tokens
 
 ```css
-@import "@the-memoize-project/token/tokens";
+/* Simplest way - import everything */
+@import "@the-memoize-project/token";
 
 .my-component {
   color: var(--color-primary);
@@ -38,6 +39,7 @@ npm install @the-memoize-project/token
 ### Import Individual Categories
 
 ```css
+/* More granular - only what you need */
 @import "@the-memoize-project/token/color";
 @import "@the-memoize-project/token/spacing";
 
@@ -145,7 +147,7 @@ All color tokens use CSS's `light-dark()` function, automatically adapting to th
 
 ```javascript
 import { css } from "@the-memoize-project/std/dom";
-import "@the-memoize-project/token/tokens";
+import "@the-memoize-project/token";
 
 const styles = css`
   :host {
@@ -167,6 +169,7 @@ const styles = css`
 
 ```json
 {
+  "@the-memoize-project/token": "./packages/index.css",
   "@the-memoize-project/token/color": "./packages/color/index.css",
   "@the-memoize-project/token/spacing": "./packages/spacing/index.css",
   "@the-memoize-project/token/fontFamily": "./packages/fontFamily/index.css",

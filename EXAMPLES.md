@@ -18,7 +18,7 @@ Real-world usage examples for @the-memoize-project/token.
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="node_modules/@the-memoize-project/token/packages/tokens/index.css">
+  <link rel="stylesheet" href="node_modules/@the-memoize-project/token/packages/index.css">
   <style>
     body {
       font-family: var(--font-family-base);
@@ -31,6 +31,18 @@ Real-world usage examples for @the-memoize-project/token.
   <h1>Hello World</h1>
 </body>
 </html>
+```
+
+Or using CSS @import:
+
+```css
+@import "@the-memoize-project/token";
+
+body {
+  font-family: var(--font-family-base);
+  color: var(--color-master-dark);
+  background: var(--color-master-lightest);
+}
 ```
 
 ### Import Specific Categories
@@ -337,7 +349,7 @@ toggle.addEventListener('click', () => {
 ```javascript
 import { define, paint } from "@the-memoize-project/std/directive";
 import { html, css } from "@the-memoize-project/std/dom";
-import "@the-memoize-project/token/tokens";
+import "@the-memoize-project/token";
 
 const styles = css`
   :host {
@@ -393,7 +405,7 @@ function Button({ children, variant = 'primary' }) {
 </template>
 
 <style scoped>
-@import "@the-memoize-project/token/tokens";
+@import "@the-memoize-project/token";
 
 .card {
   padding: var(--spacing_inset-lg);
@@ -418,7 +430,7 @@ function Button({ children, variant = 'primary' }) {
 
 ```svelte
 <script>
-  import '@the-memoize-project/token/tokens';
+  import '@the-memoize-project/token';
   export let variant = 'primary';
 </script>
 

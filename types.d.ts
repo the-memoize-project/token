@@ -9,6 +9,11 @@ declare module "*.css" {
   export default content;
 }
 
+declare module "@the-memoize-project/token" {
+  const content: string;
+  export default content;
+}
+
 declare module "@the-memoize-project/token/color" {
   const content: string;
   export default content;

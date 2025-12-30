@@ -14,6 +14,7 @@
     "url": "https://github.com/the-memoize-project/token/issues"
   },
   "exports": {
+    ".": "./packages/index.css",
     "./color": "./packages/color/index.css",
     "./spacing": "./packages/spacing/index.css",
     "./fontFamily": "./packages/fontFamily/index.css",
